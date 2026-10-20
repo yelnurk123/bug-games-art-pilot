@@ -1,0 +1,36 @@
+{
+  "version": "2026-10-20.proposed",
+  "status": "PROPOSED: ranges for the founder to confirm; the platform can change this file at any time",
+  "currency": "crumbs",
+  "rate": {
+    "about": "100 crumbs ≈ €1 at the smallest bundle",
+    "bundles": [
+      { "crumbs": 500,  "eur": 4.99 },
+      { "crumbs": 1100, "eur": 9.99,  "bonus": 100 },
+      { "crumbs": 2400, "eur": 19.99, "bonus": 400 },
+      { "crumbs": 6500, "eur": 49.99, "bonus": 1500 }
+    ]
+  },
+  "rounding": 10,
+  "smallestBundle": 500,
+  "kinds": {
+    "convenience":    { "min": 30,  "max": 100,  "anchor": 60,  "examples": ["revive at the point of failure", "skip a real timer"],
+                        "rules": ["platform overlay only", "never in versus or ranked", "never stretch a timer to sell a skip"] },
+    "small-look":     { "min": 100, "max": 250,  "anchor": 150, "examples": ["sticker", "emote", "trail", "frame"], "rules": ["looks only"] },
+    "look":           { "min": 250, "max": 600,  "anchor": 300, "examples": ["skin", "outfit", "companion"], "rules": ["never the identity core"] },
+    "signature-look": { "min": 600, "max": 1000, "anchor": 900, "rules": ["at most two per store"] },
+    "starter-pack":   { "min": 300, "max": 500,  "anchor": 400, "rules": ["once per player", "priced below its parts", "no countdown"] },
+    "game-pass":      { "min": 600, "max": 1000, "anchor": 950, "rules": ["about 30 steps, one season", "nothing that beats other players", "crumbs as rewards: undecided (Q6)"] },
+    "chapter-unlock": { "min": 300, "max": 800,  "anchor": 700, "rules": ["first chapter free", "never only the ending", "never unfinished content", "see Q12"] },
+    "creator-subscription-month": { "min": 150, "max": 500, "anchor": 250, "rules": ["at least one perk", "never a story outcome or an advantage"] },
+    "consumable-multipack": { "maxPerUnitOfSingle": 1.0, "rules": ["never more per unit than buying one"] }
+  },
+  "outsideRange": "allowed with a one-line reason in bug-assets.json; flagged for staff review",
+  "always": [
+    "every store has something buyable with the smallest bundle",
+    "no prices designed to strand leftover crumbs or push a bigger bundle",
+    "no fake discounts, no 'was' prices, no countdowns unless something really ends",
+    "a limited item says when it returns",
+    "prices never appear on art"
+  ]
+}

@@ -5,6 +5,7 @@ The common language every game uses to make its art for bug.games, and stage 1 o
 | File | What it is |
 |---|---|
 | `VISUAL_LANGUAGE.md` + `reference/` | **Look first.** What bug.games looks like: the For You wall, Home, the game page, events, the result, the share card, the profile. How your game shines in it |
+| `PRICING.md` + `pricing.json` | How to price your things: a range for each kind, in crumbs (the ranges can change) |
 | `VIDEO_BRIEF.md` | Optional: how to make a gameplay video, the best bits of real play opening on your strongest moment |
 | `PILOT_BRIEF.md` | **Start here.** What to make in stage 1, and how to hand it in |
 | `GRAMMAR.md` | How bug.games judges art: the frame, the 10 principles, platform colours, light and loudness on the wall, motion, who owns what |
