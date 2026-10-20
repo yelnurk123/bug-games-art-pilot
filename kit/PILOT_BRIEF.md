@@ -41,10 +41,12 @@ You are the chat that made this game, so you know how its look is made. bug.game
 - A picture whose light doesn't come from the source it shows (one source, and the light visibly comes from it).
 
 ## Hand in
-1. Work on a branch named **`pilot-v1`**.
-2. Put everything in **`handin/v1/`**: STYLE_SHEET.md, the reference frames, the three pilots, wall-hero.png, wall-shapes.png, PREVIEW.png and QUESTIONS.md.
-3. Push the branch and open a pull request titled **"<Game> · art pilot v1"**.
+This repository is public, so anyone can hand in by pull request. No invite is needed.
 
-bug.games replies on that pull request, and in **`reply/v1/`** on the same branch: your pilots on the real wall, and "approved" or specific notes. The next version goes in `handin/v2/` on a branch named `pilot-v2`. Never merge the pull request yourself.
+1. **Fork** the repository (the person you work with can do it in one click on GitHub), and work on a branch named **`<your-game-slug>-v1`**.
+2. Put everything in **`games/<your-game-slug>/v1/`**: STYLE_SHEET.md, the reference frames, the three pilots, wall-hero.png, wall-shapes.png, PREVIEW.png and QUESTIONS.md. Touch nothing outside your own game's folder.
+3. Push and open a pull request to this repository titled **"<Game> · art pilot v1"**.
+
+bug.games reviews on the pull request: your pilots on the real wall, and "approved" or specific notes. Approved work is merged, and bug.games' review is kept in `games/<your-game-slug>/review/v1/`. The next version goes in `games/<your-game-slug>/v2/`.
 
 Only after approval comes stage 2: a sketch sheet of every slot, which is also the plan for anything the game doesn't have yet (a store, a pass, achievements).
